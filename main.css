@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-  background-color: #D3564A;
+  background-color: #d3564a;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   z-index: 6;
   width: 100%;
@@ -43,6 +43,7 @@ nav {
 
 .nav-icons-wrapper {
   margin: 0 auto;
+  width: 215px;
 }
 
 .socialmedia-icons {
@@ -56,10 +57,6 @@ nav {
 
 .filter-white {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(333deg) brightness(111%) contrast(102%);
-}
-
-.nav-icons-wrapper {
-  width: 215px;
 }
 
 .nav-icons-wrapper ul {
@@ -83,8 +80,8 @@ main {
 
 .search-area-bg {
   background-image:
-  linear-gradient(to bottom, rgba(41, 39, 39, 0.404), rgba(22, 22, 22, 0.952)),
-  url(imgs/pexels-pixabay-159740.jpg);
+   linear-gradient(to bottom, rgba(41, 39, 39, 0.404), rgba(22, 22, 22, 0.952)),
+   url(imgs/pexels-pixabay-159740.jpg);
   background-size: cover;
   background-position: 50%;
   width: 100%;
@@ -99,7 +96,7 @@ main {
 .search-form-wrapper {
   width: 95%;
   padding: 0.7em;
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
 }
 
 @media screen and (min-width: 768px) {
@@ -114,20 +111,20 @@ main {
 }
 
 .search-btn {
-  background-color: #D3564A;
+  background-color: #d3564a;
   width: 99%;
   margin-left: 0;
   padding: 0.5em 2em;
 }
 
 .how-to-btn {
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
   padding: 0.5em 1.5em;
   margin: 1.5em 0 3em;
 }
 
 .steps-header {
-  color: #D3564A;
+  color: #d3564a;
 }
 
 .steps-icon {
@@ -135,12 +132,12 @@ main {
 }
 
 .whoarewe-row1 {
-  background-color: #D3564A;
+  background-color: #d3564a;
   min-height: 42vh;
 }
 
 .whoarewe-row2 {
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
   min-height: 42vh;
 }
 
@@ -167,8 +164,8 @@ main {
 .footer-nav {
   padding: 2em 0;
 }
- 
-.footer-left, 
+
+.footer-left,
 .footer-right {
   flex: 1;
 }
