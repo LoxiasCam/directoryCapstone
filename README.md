@@ -24,7 +24,7 @@ You can access all the design info (layouts) in this link:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://loxiascam.github.io/directoryCapstone/index.html)
 
 
 ## Getting Started
