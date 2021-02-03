@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flow-wrap {
+  flex-flow: column wrap;
+}
+
+.color-white {
+  color: white;
+}
+
+nav {
+  background-color: #D3564A;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  z-index: 6;
+  width: 100%;
+}
+
+.logo {
+  width: 162px;
+  padding-top: 0.5em;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+
+.nav-icons-wrapper {
+  margin: 0 auto;
+}
+
+.socialmedia-icons {
+  margin-bottom: 1.5em;
+  padding-left: 0;
+}
+
+.socialmedia-link {
+  margin-right: 3em;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(333deg) brightness(111%) contrast(102%);
+}
+
+.nav-icons-wrapper {
+  width: 215px;
+}
+
+.nav-icons-wrapper ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.socialmedia-icons li {
+  margin: 0 3px;
+}
+
+main {
+  padding-top: 113px;
+}
+
+.filter-row {
+  background-color: #bcbcbc;
+}
+
+.searchButton {
+  background-color: cornflowerblue;
+}
+
+.clearButton {
+  background-color: goldenrod;
+}
+
+.search-result-card {
+  height: 20em;
+}
+
+.caption {
+  background-image:
+  linear-gradient(to bottom, rgba(235, 136, 90, 0.404), rgba(248, 111, 56, 0.822)),
+  url(imgs/stlogo.png);
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.result-name {
+  margin-top: 25%;
+}
+
+.footer-nav {
+  padding: 2em 0;
+}
+ 
+.footer-left, 
+.footer-right {
+  flex: 1;
+}
+
+.subscribe-input {
+  background-color: transparent;
+}
+
+.footer-about {
+  margin-top: 2em;
+}
