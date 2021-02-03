@@ -12,35 +12,75 @@
 <body>
 
   <nav class="d-flex justify-content-center align-items-center pt-3 fixed-top">
-    <div class="container">
+
+    <div class="container d-md-none">
       <div class="header-nav flex-direction-column text-center">
         <div class="logo d-inline-block">
-          <a href="#" class="flex justify-content-center align-items-center logo">
+          <a href="index.html" class="flex justify-content-center align-items-center logo">
             <img src="imgs/method-draw-image.svg" alt="logo" class="filter-white">
           </a>
         </div>
         <div class="nav-icons-wrapper">
           <ul class="socialmedia-icons list-unstyled flex align-items-center">
-            <li><a href="#" class="text-decoration-none color-white"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="text-decoration-none color-white"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+            <li><a href="results.html" class="text-decoration-none color-white"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            <li><a href="index.html#About" class="text-decoration-none color-white"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
             <li><a href="#" class="text-decoration-none color-white"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
             <li><a href="#" class="text-decoration-none color-white"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
   				</ul>
         </div>
       </div>
     </div>
+
+    <div class="container d-none d-md-flex">
+
+        <div class="logo flex-grow-1">
+          <a href="index.html" class="flex justify-content-center align-items-center logo">
+            <img src="imgs/method-draw-image.svg" alt="logo" class="filter-white">
+          </a>
+        </div>
+        <div class="icons-links flex-grow-1 d-flex justify-content-end align-items-center">
+          <ul class="list-unstyled">
+            <li class="d-inline-block px-2">
+              <a href="results.html" class="text-uppercase text-decoration-none color-white">
+                <i class="fa fa-search"></i>
+                <span class="d-none d-lg-inline">Courses</span>
+              </a>
+            </li>
+            <li class="d-inline-block px-2">
+              <a href="index.html#About" class="text-uppercase text-decoration-none color-white">
+                <i class="fa fa-user-o"></i>
+                <span class="d-none d-lg-inline">About</span>
+              </a>
+            </li>
+            <li class="d-inline-block px-2">
+              <a href="#" class="text-uppercase text-decoration-none color-white">
+                <i class="fa fa-rss"></i>
+                <span class="d-none d-lg-inline">Blog</span>
+              </a>
+            </li>
+            <li class="d-inline-block px-2">
+              <a href="#" class="text-uppercase text-decoration-none color-white">
+                <i class="fa fa-bars"></i>
+                <span class="d-none d-lg-inline">More</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+    
+    </div>
+
   </nav>
 
   <main>
     <section class="search-area-bg">
       <div class="search-area-row row g-0">
         <div class="col-12 text-center">
-          <h1 class="fs-5 fw-bold text-white d-inline-block">St. Isatis. Your one stop for online courses all around the world!</h1>
+          <h1 class="fs-5 fw-bold color-white d-inline-block">St. Isatis. Your one stop for online courses all around the world!</h1>
           <div class="search-form-wrapper d-flex flex-direction-column m-auto rounded">
             <span class="search-info text-uppercase text-start text-secondary fw-bold">Search by key word</span>
             <div class="search-form">
               <input type="search" class="input-search">
-              <a class="search-btn text-decoration-none text-white fw-bold d-inline-block text-center text-uppercase border border-dark" href="#">Search</a> 
+              <a class="search-btn text-decoration-none color-white fw-bold d-inline-block text-center text-uppercase border border-dark" href="results.html">Search</a> 
             </div>
           </div>
           <a class="d-inline-block how-to-btn rounded text-decoration-none text-dark fw-bold" href="#">How It Works</a>
@@ -105,7 +145,7 @@
       </div> 
     </section>
 
-    <section class="whoarewe">
+    <section class="whoarewe" id="About">
       <header class="whoarewe-header-row row g-0">
         <div class="col-12">
           <h2 class="text-danger text-center fw-bold">
@@ -117,13 +157,13 @@
       <div class="whoarewe-row1 row g-0 mt-4">
 
         <div class="col-md-8 text-center">
-          <h2 class="text-white fw-bold d-inline-block mt-5">
+          <h2 class="color-white fw-bold d-inline-block mt-5">
             Over 1 million courses for you to browse!
           </h2>
-          <p class="text-white mt-4">
+          <p class="color-white mt-4">
             Find a course now using our dedicated search engine
           </p>
-          <a class="findButton btn btn-light text-danger d-inline-block text-decoration-none" href="#">Find Now</a>
+          <a class="findButton btn btn-light text-danger d-inline-block text-decoration-none" href="results.html">Find Now</a>
         </div>
         <div class="col-md-4 d-flex right-image justify-content-center my-5">
           <img class="right-img rounded-circle" src="imgs/pins.jpg" alt="Map">
@@ -134,13 +174,13 @@
       <div class="whoarewe-row2 row g-0 mt-4">
 
         <div class="col-md-8 text-center">
-          <h2 class="text-white fw-bold d-inline-block mt-5">
+          <h2 class="color-white fw-bold d-inline-block mt-5">
             Stop spending so much time trying to find a good course
           </h2>
-          <p class="text-white mt-4">
+          <p class="color-white mt-4">
             Thousands are waiting for you, just a click away!
           </p>
-          <a class="findButton btn btn-light text-danger d-inline-block text-decoration-none" href="#">Find a course near you!</a>
+          <a class="findButton btn btn-light text-danger d-inline-block text-decoration-none" href="results.html">Find a course near you!</a>
         </div>
         <div class="col-md-4 d-flex right-image justify-content-center my-5">
           <img class="right-img rounded-circle" src="imgs/thousands.jpg" alt="Bookshelves">
@@ -151,10 +191,10 @@
       <div class="whoarewe-row3 row g-0 mt-4">
 
         <div class="col-md-8 text-center">
-          <h2 class="text-white fw-bold d-inline-block mt-5">
+          <h2 class="color-white fw-bold d-inline-block mt-5">
             Any time, any way, anywhere!
           </h2>
-          <p class="text-white mt-4">
+          <p class="color-white mt-4">
             Your convenient one stop that you can access on any device, with a specialized app soon to come to your phone!
           </p>
         </div>
@@ -176,55 +216,55 @@
           <div class="footer-left d-flex justify-content-center align-items-center">
             <ul class="list-unstyled mb-0">
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Home</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Home</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Search</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Search</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">About Us</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="index.html#About">About Us</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Facebook</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Facebook</a>
               </li>
             </ul>
           </div>
+
+          <div class="footer-logo d-none d-lg-flex fs-1">
+            <i class="fa fa-map-marker color-white"></i>
+          </div>
+
           <div class="footer-right d-flex justify-content-center align-items-center">
             <ul class="list-unstyled mb-0">
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Advertise</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Twitter</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Twitter</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Blog</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Blog</a>
               </li>
               <li class="d-inline-block px-1">
-                <a class="footer-link text-white d-inline-block text-decoration-none" href="#">Google+</a>
+                <a class="footer-link color-white d-inline-block text-decoration-none" href="#">Google+</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <!--div for icon in footer. Need to fix position on desktop size-->
-        <!-- <div class="footer-logo d-none d-lg-inline-block position-absolute border border-light rounded-circle">
-          <i class="fa fa-map-marker-alt text-white"></i>
-        </div> -->
-
-        <div class="row about-section mt-5">
+        <div class="row about-section">
           <div class="col-12 col-lg-4 footer-subscribe">
-            <h5 class="text-center text-white fw-bold">
+            <h5 class="text-center color-white fw-bold">
               Subscribe
             </h5>
             <div class="d-flex justify-content-center">
-              <input class="subscribe-input text-white" type="email" placeholder="example@example.com">
-              <a class="text-decoration-none d-inline-block text-white p-1 bg-secondary" href="#">Subscribe</a>
+              <input class="subscribe-input color-white" type="email" placeholder="example@example.com">
+              <a class="text-decoration-none d-inline-block color-white p-1 bg-secondary" href="#">Subscribe</a>
             </div>
           </div>
 
           <div class="col-12 col-lg-4 d-flex flex-direction-column footer-about">
-            <h5 class="text-center text-white fw-bold">
+            <h5 class="text-center color-white fw-bold">
               Contact
             </h5>
             <span class="text-secondary text-center">For more information, please feel free to write to us!</span>
@@ -232,12 +272,12 @@
           </div>
 
           <div class="col-12 col-lg-4 d-flex flex-direction-column footer-about">
-            <h5 class="text-center text-white fw-bold">
+            <h5 class="text-center color-white fw-bold">
               About
             </h5>
-            <span class="text-secondary text-center">The purpose of this website is to find libraraies that suits
-              your needs to create a better society
-              <a class="text-danger learn-more" href="#">Learn More</a></span>
+            <span class="text-secondary text-center">The purpose of this website is to help you find a course that suits
+              your needs!
+              <a class="text-danger learn-more" href="index.html#About">Learn More</a></span>
           </div>
         </div>
       </div>

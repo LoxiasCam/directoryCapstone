@@ -107,6 +107,16 @@ main {
   margin-top: 25%;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-links {
+    flex-direction: row;
+  }
+}
+
+.footer-subscribe {
+  padding-top: 2em;
+}
+
 .footer-nav {
   padding: 2em 0;
 }

@@ -7,7 +7,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <link rel='stylesheet' type='text/css' media='screen' href='results.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='signup.css'>
 </head>
 <body>
 
@@ -71,139 +71,118 @@
 
   <main>
 
-    <div class="filter-row row g-0">
+    <div class="course-details container mt-5">
 
-      <div class="col-12">
-        <div class="container text-center">
-          <h2 class="text-secondary fw-bold mt-5">
-            Filter by course name, location, intensity, modality and preferred instructor's gender identity.
-          </h2>
-          <form class="courses-form">
-            <div class="inputs d-flex flex-wrap mb-5">
-              <div class="me-2 text-left d-flex flex-column">
-                <label for="course-name">Course Name:*</label>
-                <input id="course-name" type="text" class="course-name">
-              </div>
-              <div class="me-2 text-left d-flex flex-column">
-                <label for="location">Location:</label>
-                <select name="location" id="location" class="location bg-white">
-                  <option value="">Select</option>
-                  <option value="AME">Americas</option>
-                  <option value="EUR">Europe</option>
-                  <option value="ASI">Asia</option>
-                  <option value="AFR">Africa</option>
-                  <option value="OCE">Oceania</option>
-                </select>
-              </div>
-              <div class="me-2 text-left d-flex flex-column">
-                <label for="intensity">Intensity:</label>
-                <select name="intensity" id="intensity" class="intensity bg-white">
-                  <option value="">Select</option>
-                  <option value="High">High</option>
-                  <option value="Medium">Medium</option>
-                  <option value="Low">Low</option>
-                </select>
-              </div>
-              <div class="me-2 text-left d-flex flex-column">
-                <label for="type">Type:</label>
-                <select name="type" id="type" class="type bg-white">
-                  <option value="">Select</option>
-                  <option value="Online">Online</option>
-                  <option value="Face-to-face">Face to face</option>
-                </select>
-              </div>
-
-              <div class="me-2 text-left d-flex flex-column">
-                <label for="Gender">Gender:</label>
-                <select name="Gender" id="Gender" class="gender bg-white">
-                  <option value="">Select</option>
-                  <option value="MEN">Male</option>
-                  <option value="FEM">Female</option>
-                  <option value="NBI">Non-binary</option>
-                </select>
-              </div>
-              <div class="d-flex justify-content-center align-items-end">
-                <a href="#" class="searchButton p-1 m-1 text-white text-decoration-none d-inline-block">Search</a>
-                <a href="#" class="clearButton p-1 m-1 text-white text-decoration-none d-inline-block">
-                  <i class="fa fa-edit"></i>
-                  Clear filter
-                </a>
-              </div>
-            </div>
-          </form>
+      <section class="course-details border-shadow">
+        <div class="course-details-logo row">
+          <div class="col-12 d-flex align-items-start">
+            <img class="stisatis" src="imgs/stlogo.png" alt="St. Isatis Logo">
+          </div>
         </div>
+  
+        <div class="row px-3">
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Course name: <span class="text-primary">Critical Thinking</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Intensity: <span class="text-primary">High</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              System: <span class="text-primary"> </span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Gender: <span class="text-primary">Non-binary</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Location: <span class="text-primary">Americas</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Email: <span class="text-primary">stisatis@edu.co</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Type: <span class="text-primary">Online</span>
+            </h2>
+          </div>
+          <div class="col-12 col-md-6 border border-secondary text-center">
+            <h2 class="text-secondary fw-bold">
+              Duration: <span class="text-primary">12 weeks</span>
+            </h2>
+          </div>
+          <div class="col-12 d-flex justify-content-end pt-3">
+            <a class="applyButton text-white mr-1 mb-1 text-decoration-none text-uppercase fw-bold" href="#membership-form"><i class="fa fa-envelope pe-1" aria-hidden="true"></i>Apply</a>
+          </div>
+          <div class="col-12 d-flex justify-content-end pt-3">
+            <ul class="list-unstyled">
+              <li class="border-end text-uppercase text-secondary fw-bold d-inline-block pe-1"><i class="fa fa-phone text-primary" aria-hidden="true"></i>Tel: </li>
+              <li class="border-end text-uppercase text-secondary fw-bold d-inline-block pe-1"><i class="fa fa-desktop text-primary" aria-hidden="true"></i>Website: <span class="text-success">St.com</span></li>
+              <li class="border-end text-uppercase text-secondary fw-bold d-inline-block pe-1"><i class="fa fa-users text-primary" aria-hidden="true"></i>Students enrolled: <span class="text-primary">550</span></li>
+              <li class="border-end text-uppercase text-secondary fw-bold d-inline-block pe-1"><i class="fa fa-money text-primary" aria-hidden="true"></i>Student support: <span class="text-primary">Yes</span></li>
+              <li class="border-end text-uppercase text-secondary fw-bold d-inline-block pe-1"><i class="text-primary" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="map mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7948.457413237084!2d-75.67138187583443!3d5.066642485290274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47777f88cd9e83%3A0xac78d268c6bf99fc!2sSANTAGUEDA%2C%20Palestina%2C%20Caldas!5e0!3m2!1ses-419!2sco!4v1612379629064!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
+
+      <section class="signup-area">
+        <div class="course-signup container mt-5 pb-5">
+          <div class="course-signup-row row">
+            <div class="col-12 d-flex justify-content-center">
+              <h2 class="font-weight-bold text-danger">Sign up for this course!</h2>
+            </div>
+            <div class="col-12">
+              <form class="signup-form" action="#">
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="first-name">First Name:* </label>
+                  <input type="text" class="form-control bg-light" id="first-name" placeholder="First Name">
+                </div>
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="last-name">Last Name: </label>
+                  <input type="text" class="form-control bg-light" id="last-name" placeholder="Last Name">
+                </div>
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="email">Email: </label>
+                  <input type="email" class="form-control bg-light" id="email" placeholder="email@example.com">
+                </div>
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="user-name">Username:* </label>
+                  <input type="text" class="form-control bg-light" id="user-name" placeholder="Username">
+                </div>
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="password">Password:* </label>
+                  <input type="password" class="form-control bg-light" id="password" placeholder="Password">
+                </div>
+                <div class="form-field">
+                  <label class="text-uppercase text-secondary fw-bold" for="confirm-password">Confirm Password:* </label>
+                  <input type="password" class="form-control bg-light" id="confirm-password" placeholder="Confirm password">
+                </div>
+                <div class="form-field">
+                  <a class="text-white text-decoration-none btn btn-danger d-inline-block bg-primary-color" href="#">Sign Up</a>
+                  <a class="text-primary-color text-decoration-none btn btn-success d-inline-block" href="#">Sign In</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
-
-    <section class="search-result-cards container-fluid mb-3">
-      <header class="results-header-row row text-center">
-        <div class="col-12 mt-5">
-          <h3 class="fw-bold mt-3 text-secondary">
-            Search results found 7 course(s).
-          </h3>
-        </div>
-      </header>
-
-      <div class="results-content-row row mt-3">
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-3 search-result-card">
-          <a href="signup.html">
-            <div class="caption text-center">
-              <span class="text-white d-inline-block result-name fs-2">Name: <span class="font-weight-bold">St. Isatis</span></span>
-            </div>
-          </a>
-        </div>
-      
-      </div>
-    </section>
 
   </main>
 
@@ -211,7 +190,7 @@
     
     <div class="footer-nav position-relative bg-black">
       <div class="container">
-        <div class="footer-links d-flex flex-direction-column border-top border-bottom border-light">
+        <div class="footer-links d-flex flex-direction-column border-top border-bottom border-secondary">
           <div class="footer-left d-flex justify-content-center align-items-center">
             <ul class="list-unstyled mb-0">
               <li class="d-inline-block px-1">
