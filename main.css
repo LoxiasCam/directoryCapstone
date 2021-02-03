@@ -80,8 +80,8 @@ main {
 
 .search-area-bg {
   background-image:
-   linear-gradient(to bottom, rgba(41, 39, 39, 0.404), rgba(22, 22, 22, 0.952)),
-   url(imgs/pexels-pixabay-159740.jpg);
+    linear-gradient(to bottom, rgba(41, 39, 39, 0.404), rgba(22, 22, 22, 0.952)),
+    url(imgs/pexels-pixabay-159740.jpg);
   background-size: cover;
   background-position: 50%;
   width: 100%;

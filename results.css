@@ -91,8 +91,8 @@ main {
 
 .caption {
   background-image:
-   linear-gradient(to bottom, rgba(235, 136, 90, 0.404), rgba(248, 111, 56, 0.822)),
-   url(imgs/stlogo.png);
+    linear-gradient(to bottom, rgba(235, 136, 90, 0.404), rgba(248, 111, 56, 0.822)),
+    url(imgs/stlogo.png);
   background-size: cover;
   background-position: 50%;
   width: 100%;
