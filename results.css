@@ -36,9 +36,10 @@ nav {
 }
 
 .logo img {
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
   color: white;
+  padding-bottom: 10px;
 }
 
 .nav-icons-wrapper {
@@ -70,7 +71,7 @@ nav {
 }
 
 main {
-  padding-top: 113px;
+  padding-top: 85px;
 }
 
 .filter-row {
